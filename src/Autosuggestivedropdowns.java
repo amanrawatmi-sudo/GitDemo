@@ -18,6 +18,12 @@ public class Autosuggestivedropdowns {
 		for (WebElement option : options) {
 			if (option.getText().equalsIgnoreCase("INDIA")) {
 				option.click();
+				option.click();
+				option.click();
+				option.click();
+				option.click();
+				option.click();
+				option.click();
 				break;
 			}
 		}
