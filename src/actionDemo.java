@@ -28,6 +28,8 @@ public class actionDemo {
            //Moves to specific element
            // With the help of context click we can use right click
            a.moveToElement(move).contextClick().build().perform();
+           a.moveToElement(move).contextClick().build().perform();
+           a.moveToElement(move).contextClick().build().perform();
 	}
 
 }
