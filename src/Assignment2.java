@@ -22,6 +22,10 @@ public class Assignment2 {
 		driver.findElement(By.cssSelector("input[type='submit']")).click();
 		System.out.println(
 				driver.findElement(By.cssSelector("div[class='alert alert-success alert-dismissible']")).getText());
+		System.out.println(
+				driver.findElement(By.cssSelector("div[class='alert alert-success alert-dismissible']")).getText());
+		System.out.println(
+				driver.findElement(By.cssSelector("div[class='alert alert-success alert-dismissible']")).getText());
 	}
 
 }
