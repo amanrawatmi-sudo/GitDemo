@@ -16,7 +16,7 @@ public class Autosuggestivedropdowns {
 		Thread.sleep(1000);
 		List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
 		for (WebElement option : options) {
-			if (option.getText().equalsIgnoreCase("INDIA")) {
+			if (option.getText().equalsIgnoreCase("IN")) {
 				option.click();
 				option.click();
 				option.click();
